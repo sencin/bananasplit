@@ -223,7 +223,7 @@ function SettingsPageContent({
             label="Theme"
             onClick={toggleTheme}
             showChevron={false}
-            value={theme === 'dark' ? 'Dark Banana' : 'White Banana'}
+            value={theme === 'dark' ? 'Choco Banana' : 'Ripe Banana'}
           />
           </CardContent>
         </Card>
