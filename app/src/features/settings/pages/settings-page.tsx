@@ -152,7 +152,7 @@ function SettingsPageContent({
                     disabled={updateAuthStateMutation.isPending}
                     onClick={() =>
                       updateAuthStateMutation.mutate({
-                        accountEmail: 'sebas@gmail.com',
+                        accountEmail: 'guest@gmail.com',
                         authProvider: 'google',
                         isSignedIn: true,
                       })
@@ -168,7 +168,7 @@ function SettingsPageContent({
                     disabled={updateAuthStateMutation.isPending}
                     onClick={() =>
                       updateAuthStateMutation.mutate({
-                        accountEmail: 'sebas@gmail.com',
+                        accountEmail: 'guest@gmail.com',
                         authProvider: 'google',
                         isSignedIn: true,
                       })
